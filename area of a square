@@ -1,0 +1,15 @@
+#include<stdio.h>
+int inc(int);
+int main()
+{
+    int n,area,a;
+    printf("Enter no.");
+    scanf("%d",&n);
+    inc(n);
+
+}
+int inc(int a)
+{
+    area=a*a*a*a;
+    printf("Area of the square: %d\n",area);
+}
