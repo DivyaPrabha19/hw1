@@ -13,8 +13,6 @@ int main()
 }
 int square(int a,int b)
 {
-    int d;
-    d=pow(a,b);
-    return d;
+    return (pow(a,b));
 }
 }
