@@ -5,11 +5,11 @@ int main()
     int n,area,a;
     printf("Enter no.");
     scanf("%d",&n);
-    inc(n);
+    a=inc(n);
+    printf("%d",a);
 
 }
-int inc(int a)
+int inc(int n)
 {
-    area=a*a*a*a;
-    printf("Area of the square: %d\n",area);
+    return n*n;
 }
